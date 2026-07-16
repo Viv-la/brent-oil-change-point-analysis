@@ -1,0 +1,2 @@
+change_point_index,change_point_date,mean_before,mean_after,absolute_change,percentage_change,probability_increase,probability_decrease,before_lower_95,before_upper_95,after_lower_95,after_upper_95
+214,2005-03-01,21.466522308548903,75.99951159358022,54.53298928503132,254.03737271087414,1.0,0.0,18.91116264997454,23.97311981957147,73.23444369073022,78.62016856735802

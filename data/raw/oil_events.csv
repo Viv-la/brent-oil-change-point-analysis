@@ -1,0 +1,21 @@
+Date,Event,Category,Expected_Impact
+1990-08-02,Iraq invades Kuwait,Conflict,Price Increase
+1991-01-17,Operation Desert Storm begins,Conflict,High Volatility
+1997-07-02,Asian Financial Crisis,Economy,Price Decrease
+1998-12-11,OPEC production cut,OPEC,Price Increase
+2001-09-11,September 11 terrorist attacks,Political,High Volatility
+2003-03-20,Iraq War begins,Conflict,Price Increase
+2005-08-29,Hurricane Katrina,Disaster,Price Increase
+2008-09-15,Global Financial Crisis,Economy,Price Decrease
+2010-12-18,Arab Spring begins,Political,Price Increase
+2011-02-15,Libyan Civil War,Conflict,Price Increase
+2014-11-27,OPEC maintains production,OPEC,Price Decrease
+2015-07-14,Iran Nuclear Deal,Political,Price Decrease
+2016-11-30,OPEC production agreement,OPEC,Price Increase
+2018-05-08,US withdraws from Iran nuclear deal,Sanctions,Price Increase
+2019-09-14,Saudi Aramco facility attack,Conflict,Price Increase
+2020-03-08,Saudi-Russia oil price war,OPEC,Sharp Price Decrease
+2020-03-11,COVID-19 declared pandemic,Health,Sharp Price Decrease
+2020-04-12,OPEC+ historic production cut,OPEC,Price Increase
+2021-10-01,Global energy supply shortages,Economy,Price Increase
+2022-02-24,Russia invades Ukraine,Conflict,Sharp Price Increase
