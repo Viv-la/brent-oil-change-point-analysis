@@ -259,3 +259,69 @@ The Iraq invasion of Kuwait generated the largest positive price increase (+74.9
 **Frida N.**
 
 10 Academy Artificial Intelligence Mastery Program
+---
+
+## Dashboard Preview
+
+The interactive dashboard provides a visual interface for exploring historical Brent crude oil prices, the detected Bayesian change point, and the effects of major geopolitical and economic events.
+
+### Dashboard Overview
+
+![Brent Oil Dashboard Overview](reports/screenshots/dashboard_overview.png)
+
+### Event Impact Analysis
+
+![Event Impact Dashboard](reports/screenshots/event_analysis_dashboard.png)
+
+## System Architecture
+
+The project follows a layered analytical architecture:
+
+1. **Data layer**
+   - Historical Brent crude oil prices
+   - Curated geopolitical and economic events
+   - Processed Bayesian and event-analysis outputs
+
+2. **Analytics layer**
+   - Exploratory data analysis
+   - Bayesian change-point modelling with PyMC
+   - Posterior diagnostics
+   - Event impact calculations
+
+3. **Backend layer**
+   - Flask REST API
+   - Price, event, summary and change-point endpoints
+   - JSON responses for frontend consumption
+
+4. **Frontend layer**
+   - React and Vite
+   - Axios for API communication
+   - Recharts for interactive visualisation
+
+### Architecture Flow
+
+`Raw Data ? Python Analytics ? Processed CSV Outputs ? Flask API ? React Dashboard`
+
+## API Endpoints
+
+| Endpoint | Method | Description |
+|---|---|---|
+| `/api/prices` | GET | Returns historical Brent oil prices |
+| `/api/events` | GET | Returns major events and estimated impacts |
+| `/api/change-point` | GET | Returns Bayesian change-point results |
+| `/api/summary` | GET | Returns headline dashboard metrics |
+
+## Continuous Integration
+
+The repository includes a GitHub Actions workflow that automatically:
+
+- validates the project structure;
+- runs Python tests;
+- confirms that the analytical scripts exist;
+- verifies that the expected analytical figures were generated.
+
+The workflow runs for pushes and pull requests to protect the main branch and improve repository reliability.
+
+## Development Workflow
+
+Repository improvements are developed through feature branches and reviewed through GitHub pull requests before being merged into the main branch. This approach keeps changes traceable and reflects professional Git and GitHub practices.
